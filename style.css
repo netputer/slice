@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	background-color: #7D033C;
+	background-image: -webkit-linear-gradient(top, #7D033C 0%, #DB678A 100%);
+	background-image: linear-gradient(top, #7D033C 0%, #DB678A 100%);
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+	margin: 0 auto;
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient: vertical;
+	box-orient: vertical;
+	width: 720px;
+	height: 100%;
+}
+
+.head {
+	padding: 1em 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	text-align: center;
+}
+
+.head h1 {
+	color: #FFF;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.content {
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	padding: 3em 0;
+	color: rgba(255, 255, 255, .8);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.content p {
+	margin: 10px;
+}
+
+.drag {
+	background: rgba(255, 255, 255, .1);
+}
+
+.foot {
+	padding: 1em 0;
+	border-top: 1px solid rgba(255, 255, 255, .3);
+	color: rgba(255, 255, 255, .5);
+	text-align: center;
+}
+
+.foot a {
+	color: rgba(255, 255, 255, .5);
+}
