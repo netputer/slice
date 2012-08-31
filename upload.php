@@ -39,7 +39,7 @@
 
 			$content = base64_decode(str_replace('data:image/png;base64,', '', $file));
 
-			if (!is_array(getimagesizefromstring($content))) {
+			if (@imagecreatefromstring($content) === FALSE) {
 				exit('文件仅限图片');
 			}
 
